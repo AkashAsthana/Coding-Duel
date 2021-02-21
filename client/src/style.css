@@ -1,0 +1,49 @@
+.wait {
+    display: none;
+}
+#call {
+    display: none;
+}
+.App {
+    text-align: center;
+  }
+  /* #container{
+      opacity: 0.9;
+      background-image:url('./images/possessed-photography-Q9CkYF2IOzo-unsplash.jpg');
+      position: absolute;
+      height: 100%;
+      width: 100%;
+  } */
+  body{
+    background: linear-gradient(#eef2f3,#aab9c5) repeat;
+  
+    /* opacity: 1; */
+    /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('./images/qihao-wang-Omw9x2BXVXY-unsplash\ \(1\).jpg');*/
+    background-size: cover ;
+  }
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Nunito Regular'), local('Nunito-Regular'), 
+     url(https://fonts.gstatic.com/s/nunito/v11/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) 
+     format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, 
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, 
+      U+2215, U+FEFF, U+FFFD;
+  }
+  #remote-video {
+    max-width: 40%;
+    display: inline-block;
+    margin: auto;
+  }
+  
+  #call
+  {
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  }
+  
+  

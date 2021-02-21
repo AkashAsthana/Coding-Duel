@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <title>Coding Duel</title>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div id='call'>
+    <div id='status'>
+      <button id='ready-btn'>Ready?</button>
+      <p id='opponent-status'>Opponent is Not Ready</p>
+    </div>
+    <video id='remote-video'>Opponent</video>
+    <div>
+      <button id='video-btn'>Mute Your Video</button>
+      <button id='audio-btn'>Mute yourself</button>
+    </div>
+  </div>
+</body>
+
+</html>
